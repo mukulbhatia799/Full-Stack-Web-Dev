@@ -1,0 +1,30 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+
+.box > .done {
+    color: firebrick;
+}
+
+/* both are correct and give firebrick color because we know .box > p will pick the child p and apply properties whereas .box > .done will pick the child class whose name is done. */
+
+/* .box > p {
+    color: firebrick;
+} */
+
+.box li {
+    color: blue;
+}
+
+li.done {
+    color: seagreen;
+}
+
+/* ul p.done {
+    font-size: 0.5rem;
+} */
+/* Also we can use child concept as p.done is just a  child of ul tag and we know, using child concept, we can apply those who are just one level down of that tag.*/
+ul > p.done {
+    font-size: 0.5rem;
+}
