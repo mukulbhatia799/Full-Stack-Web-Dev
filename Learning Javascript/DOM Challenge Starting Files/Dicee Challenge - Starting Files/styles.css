@@ -1,0 +1,33 @@
+* {
+  background-color:rgb(227, 108, 23);
+}
+.top-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winner-name {
+  font-size: 80px;
+}
+
+.middle-part {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.player1 > h2 {
+  font-size: 30px;
+}
+
+.player2 > h2 {
+  font-size: 30px;
+}
+
+.bottom-part {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

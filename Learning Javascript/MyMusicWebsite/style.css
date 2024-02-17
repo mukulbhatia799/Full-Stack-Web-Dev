@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(17, 24, 70, 0.904);
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.body-container > *{
+    border: 7px solid rgba(50, 67, 159, 0.904);
+    flex-basis: 100px;
+    height: 100px;
+    background-size:cover;
+    font-size: 50px;
+    color: rgb(24, 64, 71);
+    cursor: pointer;
+}
+
+/* .body-container > *:hover {
+    transform: rotate(5deg);
+} */
+
+.keyPressed {
+    border: 7px solid white;
+}
+
+.mid {
+    margin-top: 10%;
+}
+
+.w {
+    background-image: url("./images/key-1.png");
+}
+
+.a {
+    background-image: url("./images/key-4.png");
+}
+.s {
+    background-image: url("./images/key-2.png");
+}
+.d {
+    background-image: url("./images/key-3.png");
+}
+.j {
+    background-image: url("./images/key-4.png");
+}
+.k {
+    background-image: url("./images/key-5.png");
+}
+.l {
+    background-image: url("./images/key-6.png");
+}

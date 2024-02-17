@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(241, 241, 154);
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 10%;
+}
+.symbols-div {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    flex-basis: 100px;
+    height: 100px;
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn > span {
+    display: block;
+}
+
+.btn:hover {
+    font-size: 70px;
+}
+
+.add {
+    background-color:aquamarine;
+}
+
+.subtract {
+    background-color:cornflowerblue;
+}
+
+.multiply {
+    background-color:cyan;
+}
+
+.divide {
+    background-color:lightgreen;
+}
+
+.modulus {
+    background-color:lightpink;
+}
+
+.calculation-div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.result {
+    background-color:ghostwhite;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.result > p {
+    margin-top: 5px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.made-by {
+    font-size: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
