@@ -1,1 +1,1 @@
-Learning MERN stack from cohort.
+Completed in MERN-Stack repo.
